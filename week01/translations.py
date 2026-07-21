@@ -17,19 +17,13 @@
 
 from dataclasses import dataclass
 
+
+
 @dataclass
 class User:
     id: int
     name: str
     email: str | None = None
-
-user = User(id=1, name='Phayzee', email=None)
-
-print(user)
-if user.email is None:
-    print(0)
-else:
-    print(len(user.email))
 
 def label(status):
     match status:
@@ -42,4 +36,32 @@ def label(status):
         case _:
             return 'other'
 
-print(label(510))
+#4
+def squares():
+        return [x * x for x in range(1, 11) if x % 2 == 0]
+
+#6
+def initials(s: str) -> str:
+    return "".join(word[0].upper() for word in s.split(" "))
+
+#8
+class Config:
+    retries = 3
+
+
+if __name__ == "__main__":
+    user = User(id=1, name="Phayzee", email=None)
+    print(user)
+
+    length = len(user.email) if user.email is not None else 0
+    print(length)
+
+    print(label(510))
+
+    items = ["book", "pen", "bag"]
+    line = f"User {user.name} has {len(items)} items: {', '.join(items)}"
+    print(line)
+
+    print(squares())
+    print(initials("John Doe"))
+    print(Config.retries)
