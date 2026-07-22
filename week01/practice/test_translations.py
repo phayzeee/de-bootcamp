@@ -1,4 +1,4 @@
-from translations import squares, initials
+from week01.practice.translations import squares, initials
 
 def test_square():
     assert squares() == [4, 16, 36, 64, 100]
