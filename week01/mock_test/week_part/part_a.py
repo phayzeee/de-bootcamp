@@ -1,6 +1,7 @@
 #QUESTION 01
 
-from typing import List
+from typing import List, Iterator
+from unittest import result
 
 
 def top_n_words(path : str | None, n: int) -> list[tuple[str,int]]:
@@ -41,3 +42,16 @@ def word_counter(words : List[str]) -> dict:
 
 
 #QUESTION 02
+
+def running_avg(nums) -> Iterator[float]:
+    total = 0
+    count = 0
+
+    for num in nums:
+        total += num
+        count += 1
+        avg = total / count
+        yield avg
+
+print(list(running_avg([2,4,6])))
+
