@@ -1,3 +1,21 @@
 id,date,category,amount,note
 1,2026-07-31,food,1500.00,Biryani
 2,2026-07-31,transport,350.00,
+3,2026-06-03,bills,12000.00,K-Electric
+4,2026-06-05,food,450.00,Groceries
+5,2026-06-09,transport,220.00,Careem
+6,2026-06-14,gym,2500.00,Monthly membership
+7,2026-06-18,shopping,3200.00,Shirts
+8,2026-06-22,food,890.00,Dinner out
+9,2026-06-27,bills,1800.00,Internet
+10,2026-07-02,transport,600.00,Fuel
+11,2026-07-06,food,275.00,
+12,2026-07-11,shopping,7500.00,Headphones
+13,2026-07-15,bills,11500.00,K-Electric
+14,2026-07-19,gym,2500.00,Monthly membership
+15,2026-07-24,food,1250.00,Family lunch
+16,2026-07-28,transport,480.00,Careem
+17,2026-08-01,bills,1800.00,Internet
+18,2026-08-02,food,320.00,Chai + paratha
+19,2026-08-04,shopping,950.00,
+20,2026-08-05,transport,1100.00,Fuel
